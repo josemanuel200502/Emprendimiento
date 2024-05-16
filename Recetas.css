@@ -1,0 +1,18 @@
+#brownie{
+height: 200px;
+width: 350px;
+}
+
+h1{
+    text-align:center;
+}
+
+#cabezon{
+    text-align: center;
+    font-size: 20px;
+}
+
+header{
+
+    background-image: url(IMG/logo2.jpg);
+}
