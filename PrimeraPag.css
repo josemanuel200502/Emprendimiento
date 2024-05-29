@@ -46,3 +46,7 @@ body{
     border-radius: 10px;
     animation: animate 10s infinite;
 }
+
+.navbar{
+    border-radius: 10px;
+}
