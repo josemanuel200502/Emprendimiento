@@ -1,72 +1,33 @@
-#brownie{
-height: 200px;
-width: 350px;
-}
 
-h1{
-    text-align:center;
-}
-
-#cabezon{
-    text-align: center;
-    font-size: 20px;
-}
-
-header{
-
-    background-image: url(IMG/logo2.jpg);
-}
-
-.recipe-steps{
-    counter-reset: step-counter;
-    list-style: none;
-    padding-left: 0;
-}
-
-.recipe-steps li{
-    counter-increment: step-counter;
-    margin-bottom: 10px;
-    padding-left: 40px;
-    position:relative;
-}
-
-.recipe-steps li::before{
-    content: counter(step-counter);
-    position: absolute;
-    left:0;
-    top:0;
-    width: 30px;
-    height: 30px;
-    border:2px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    background-color: pink;
-    color:#000;
-}
-
-.video-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+body{
+    background-image: url(IMG/pixelcut-export.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h3{
     text-align: center;
+    font-size: 50px;
+    color:orange;
 }
 
-.nutrition-facts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 20px;
+.container-imagen{
+    width:600px;
+    overflow: hidden;
+    text-align: center;
+    
 }
 
-.fact {
-    margin: 5px 10px;
-    padding: 5px 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+.zoom-image{
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.zoom-image:hover{
+    transform: scale(1.2);
+}
+
+#panna{
+    width: 900px;
+    height: 600px;
 }
