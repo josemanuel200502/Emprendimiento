@@ -3,3 +3,52 @@ body{
     background-repeat:no-repeat;
     background-size: cover;
 }
+
+
+.card-custom {
+    width: 20rem; 
+    height: 35rem;
+    
+  }
+  .card-img-custom {
+    height: 200px; 
+    object-fit: cover;
+  }
+
+
+
+h1{
+    text-align: center;
+}
+
+.navbar{
+    border-radius: 10px;
+}
+
+.icon-container{
+    position:absolute;
+    top:20px;
+    left:-50px;
+    z-index: 1000;
+}
+
+#ronnie{
+
+    width: auto;
+    height: 300px;
+    animation: movertrineo 5s ease-in-out infinite;
+}
+@keyframes movertrineo {
+    0%{
+        transform:translateX(-20vw);
+    }
+
+    50%{
+        transform: translateX(-10vw);
+    }
+
+    100%{
+        transform: translateX(10vw);
+    }
+    
+}
