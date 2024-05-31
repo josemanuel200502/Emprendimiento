@@ -1,0 +1,32 @@
+#container{
+border-radius: 50px;
+text-align: center;
+width: 300px;
+padding: 20px;
+background-color: white;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+body{
+    background-image: url(IMG/peso-muerto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: color #f5f5f5;
+    font-size: 40px;
+    color: grey;
+}
+
+button{
+    height: 60px;
+    width: 100px;
+}
+
+input{
+    width: 150px;
+    height: 40px;
+}

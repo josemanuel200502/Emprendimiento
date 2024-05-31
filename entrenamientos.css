@@ -1,0 +1,16 @@
+#letras{
+    font-size: 1.5em;
+    color:black;
+
+}
+
+body{
+    background-image: url(IMG/ronnie-coleman.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rutinas{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}

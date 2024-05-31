@@ -1,0 +1,88 @@
+body {
+font-family: 'Arial', sans-serif;
+background-image: url(IMG/images.jpg);
+align-items: center;
+}
+.hero {     
+background-size: cover;
+color: white;
+text-align: center;
+padding: 100px 0;
+}
+.hero h1 {
+font-size: 3em;
+margin-bottom: 20px;
+color: white;
+}
+.team img {
+border-radius: 50%;
+width: 150px;
+height: 150px;
+}
+.team-member {
+text-align: center;
+margin-bottom: 20px;
+color: white;
+}
+.team-member h4 {
+margin-top: 10px;
+font-size: 1.25em;
+color: white;
+}
+.team-member p {
+font-size: 0.9em;
+color: #666;
+color: white;
+    }
+.footer {
+background-color: #333;
+color: white;
+padding: 20px 0;
+text-align: center;
+}
+.footer a {
+color: #999;
+text-decoration: none;
+}
+
+h2{
+color: white;
+}
+
+p{
+color: white;
+}
+
+img{
+width: 300px;
+height: 200px;
+}
+
+#yo{
+    width: 260px;
+    height: 200px;
+}
+
+#Redes{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.logo-button{
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.logo-button:hover{
+    transform: scale(1.2);
+}
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+#correo{
+    font-size: 20px;
+    text-align: center;
+}
